@@ -71,12 +71,12 @@ body{
   height: 100%;
   border: none;
   color: #fff;
-  margin-left: 5px;
+  margin-left: 0;
   font-size: 17px;
   outline: none;
   background: #59e0c2;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 7px;
   opacity: 1;
   pointer-events: none;
   transition: all 0.3s ease;
@@ -98,7 +98,7 @@ body{
   list-style: none;
   margin-bottom: 8px;
   background: #fff;
-  border-radius: 3px;
+  border-radius: 5px;
   border-left: #59e0c2 5px solid;
   padding: 10px 15px;
   cursor: default;
@@ -108,12 +108,12 @@ body{
 }
 .todoList li .icon{
   position: absolute;
-  right: -45px;
+  right: -50px;
   top: 0;
-  transform: translateY(-50%);
+  transform: translateY(0%);
   background: #8f74de;
-  width: 45px;
-  height: 250px;
+  width: 50px;
+  height: 100%;
   text-align: center;
   color: #fff;
   padding: 10px 15px;
